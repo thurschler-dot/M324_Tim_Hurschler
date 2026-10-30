@@ -4,9 +4,7 @@
   "description": "Exam M324",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "lint": "eslint .",
-    "format": "prettier --write ."
+    "start": "eslint . && prettier --check . && node index.js"
   },
   "keywords": [],
   "author": "",
